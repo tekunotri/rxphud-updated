@@ -5,8 +5,8 @@ Thanks for downloading my HUD
 
 HOW TO INSTALL
 
-Download zip file and extract resource & scripts to yout tf2 directory
-C:\Program Files\Steam\steamapps\yourname\team fortress 2\tf
+Download zip file and extract resource & scripts to your tf2 custom directory
+C:\Program Files\Steam\steamapps\yourname\team fortress 2\tf\custom
 
 Open resource folder. You will find a font in it called "Chunkfive.tff" Install the font
 
