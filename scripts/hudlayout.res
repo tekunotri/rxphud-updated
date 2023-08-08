@@ -82,8 +82,8 @@
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 
 	HudDemomanCharge
@@ -803,9 +803,11 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"255"
+		"ypos"					"215"
 		"wide"					"300"
-		"tall"					"215"
+		"tall"					"300"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -815,6 +817,7 @@
 		"enabled"				"1"
 		"xpos"					"c-225"
 		"ypos"					"250"
+		"zpos"					"4"
 		"wide"					"450"
 		"tall"					"218"
 	}
@@ -1348,9 +1351,9 @@
 	HudMatchStatus
 	{
 		"fieldName"				"HudMatchStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"cs-0.5"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"f0"
@@ -1369,7 +1372,7 @@
 
 		"PaintBackgroundType"	"2"
 	}
-		"CurrencyStatusPanel"
+	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"

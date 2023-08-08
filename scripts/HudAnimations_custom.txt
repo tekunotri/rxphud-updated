@@ -146,3 +146,11 @@ event HudMedicChargedStop
 }
 
 //====================================
+// dont move chat on comp/whatever
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
