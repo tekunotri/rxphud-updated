@@ -18,7 +18,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
+		"tall_minbad"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]
 		"wide"			"f0"
 		"autoResize"		"0"
@@ -34,9 +34,9 @@
 		"xpos"			"0"
 		"ypos"			"r20"	[$WIN32]
 		"ypos"			"r90"	[$X360]
-		"ypos_minmode"	"r20"
+		"ypos_minbad"	"r20"
 		"tall"			"0"	[$WIN32]
-		"tall_minmode"	"0"
+		"tall_minbad"	"0"
 		"tall"			"90"	[$X360]
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -51,15 +51,15 @@
 		"xpos"			"0"
 		"ypos"			"r0"	[$WIN32]
 		"ypos"			"r90"	[$X360]
-		"ypos_minmode"	"r0"
+		"ypos_minbad"	"r0"
 		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"
+		"tall_minbad"	"0"
 		"tall"			"90"	[$X360]
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
@@ -68,15 +68,15 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"xpos_minmode"	"c-300"
+		"xpos_minbad"	"c-300"
 		"xpos"			"c-200"	[$X360]
 		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
+		"ypos_minbad"	"3"		[$WIN32]
 		"ypos"			"67"	[$X360]
 		"ypos_hidef"	"79"
 		"ypos_lodef"	"85"
 		"wide"			"600"	[$WIN32]
-		"wide_minmode"	"300"
+		"wide_minbad"	"300"
 		"wide"			"400"	[$X360]
 		"tall"			"18"
 		"tall_hidef"		"23"
@@ -105,7 +105,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"enabled"		"0"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -129,7 +129,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
@@ -154,7 +154,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
@@ -176,7 +176,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
@@ -197,7 +197,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
@@ -218,7 +218,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
@@ -239,7 +239,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
@@ -260,7 +260,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
@@ -286,7 +286,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
+		"visible_minbad"		"0"
 		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]

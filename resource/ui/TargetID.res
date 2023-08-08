@@ -20,23 +20,23 @@
 		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}	
+		"draw_corner_height" 	"0"
+	}
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"default"
-		"font_minmode"	"TFFontLarge"
+		"font_minbad"	"TFFontLarge"
 		"xpos"			"38"
-		"xpos_minmode"	"30"
+		"xpos_minbad"	"30"
 		"ypos"			"14"
-		"ypos_minmode"	"5"
+		"ypos_minbad"	"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -50,15 +50,15 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"DefaultVerySmall"
-		"font_minmode"	"DefaultVerySmall"
+		"font_minbad"	"DefaultVerySmall"
 		"xpos"			"56"
-		"xpos_minmode"	"30"
+		"xpos_minbad"	"30"
 		"ypos"			"22"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
+		"ypos_minbad"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
@@ -78,20 +78,20 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
+		"xpos_minbad"	"0"
 		"ypos"			"5"
-		"ypos_minmode"	"0"
+		"ypos_minbad"	"0"
 		"wide"			"52"
 		"tall"			"132"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -102,8 +102,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -119,7 +119,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -152,11 +152,11 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font_minbad"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -170,6 +170,6 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 }

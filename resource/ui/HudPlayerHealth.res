@@ -123,7 +123,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos_minbad"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -570,10 +570,10 @@
 
 		"fieldName"		"TeamBG"
 		"xpos"			"120"		[$WIN32]
-		"xpos_minmode"	"90"		[$WIN32]
+		"xpos_minbad"	"90"		[$WIN32]
 		"ypos"			"73"	[$WIN32]
 
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_minbad"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"2"
