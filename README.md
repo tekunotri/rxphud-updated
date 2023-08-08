@@ -33,7 +33,7 @@ to ``Scoreboard.res``
 
 *(i tested in 1280x960 4:3 and 1280x720 16:9)* - techno
 
-MVM isn't supported, this hud predates it by a year
+MVM isn't supported (although it should? work fine), this hud predates it by a year
 
 some gamemodes might have overlapping things with health/ammo (pass time/pd_farmgageddon being such cases)
 
