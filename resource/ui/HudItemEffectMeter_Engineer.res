@@ -97,6 +97,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"rxpPipe"
+		"font"					"rxpPipeShadow"
 	}
 }

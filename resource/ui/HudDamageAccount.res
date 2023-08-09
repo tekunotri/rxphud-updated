@@ -9,8 +9,8 @@
 		"PositiveColor"			"0 255 0 180" // RED GREEN BLUE ALPHA
 		"NegativeColor"			"210 255 0 180"
 		"delta_lifetime"		"1"
-		"delta_item_font"		"rxpLife"
-		"delta_item_font_big"	"rxpLife"
+		"delta_item_font"		"rxpKS"
+		"delta_item_font_big"	"rxpKS"
 	}
 
 	"DamageAccountValue"
@@ -29,7 +29,7 @@
 		"fgcolor"		"255 150 0 255"
 		"font"			"rxpDmg"
 	}
-	
+
 	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"

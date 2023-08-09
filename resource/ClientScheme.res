@@ -3178,11 +3178,23 @@ Scheme
 			"1"
 			{
 				"name"		"Chunkfive"
-
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+
+		"rxpPipeShadow"
+		{
+			"1"
+			{
+				"name"		"Chunkfive"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 
