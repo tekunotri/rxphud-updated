@@ -3266,7 +3266,30 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"
 		}
-		TFFatLineBorderBlueBGMoreOpaque
+				TFThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/tournament_panel_brown"
+			//"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
+		TFatLineBorderBlueBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3299,7 +3322,39 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"
 		}
+		TFFatLineBorderRedBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 
+			"image"					"../hud/color_panel_red"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/color_panel_clear"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
 		MainMenuButtonGlow
 		{
 			"bordertype"			"scalable_image"
@@ -3398,7 +3453,60 @@ Scheme
 				}
 			}
 		}
+		ToolTipBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
 
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+		}
+		OptionsCategoryBorder
+		{
+			"inset" "0 0 1 1"
+
+			// This border is used just to create a horizontal line, so it only has a bottom border
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "0 0"
+				}
+			}
+		}
 		QuestStatusBorder
 		{
 			"bordertype"			"scalable_image"
