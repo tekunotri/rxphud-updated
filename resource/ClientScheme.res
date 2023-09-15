@@ -5919,7 +5919,7 @@ ToolTipBorder
 		}
 		"7"
 		{
-			"font" "resource/Chunkfive.ttf"
+			"font" "resource/chunkfive.ttf"
 			"name" "Chunkfive"
 		}
 	}
