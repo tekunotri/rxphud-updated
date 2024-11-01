@@ -1,11 +1,13 @@
 
 # Revan_xp HUD v 2.3 - Updated Version by techno
+
+## [Screenshots](https://imgur.com/a/JQxbgaX)
+
 Thanks for downloading the HUD
-### [Screenshots](https://imgur.com/a/JQxbgaX)
 
 ## HOW TO INSTALL
 
-Download [here](https://github.com/TechnoSL/rxphud-updated/archive/refs/heads/main.zip) and extract to your tf2 custom directory:
+Download [here](https://github.com/tekunotri/rxphud-updated/archive/refs/heads/main.zip) and extract to your tf2 custom directory:
 
 ``C:\Program Files\Steam\steamapps\common\team fortress 2\tf\custom``
 
@@ -36,4 +38,3 @@ to ``Scoreboard.res``
 MVM isn't supported (although it should? work fine), this hud predates it by a year
 
 some gamemodes might have overlapping things with health/ammo (pass time/pd_farmgageddon being such cases)
-

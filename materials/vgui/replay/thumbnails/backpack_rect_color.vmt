@@ -1,6 +1,6 @@
 "unlitGeneric"
 {
-	"$baseTexture" "vgui/backpack_rect_color"
+	"$baseTexture" "vgui\replay\thumbnails\backpack_rect_color"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

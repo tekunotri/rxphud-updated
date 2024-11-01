@@ -1167,10 +1167,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1247,10 +1246,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1302,10 +1300,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -1348,10 +1345,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1417,9 +1413,8 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
 			}
 		}
 		"HudFontGiant"
@@ -1465,11 +1460,10 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1559,14 +1553,23 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
+            "1"
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
 		}
 		"HudFontMediumBold"
 		{
@@ -4355,7 +4358,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"Black"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4368,7 +4371,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"Black"
 
-			"image"					"backpack_rect_selected"
+			"image"					"replay/thumbnails/backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4380,7 +4383,7 @@ ToolTipBorder
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"backpack_rect"
+			"image"					"replay/thumbnails/backpack_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4402,7 +4405,7 @@ ToolTipBorder
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"backpack_rect_selected"
+			"image"					"replay/thumbnails/backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4415,7 +4418,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorUnique"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4439,7 +4442,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4463,7 +4466,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4487,7 +4490,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4511,7 +4514,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4536,7 +4539,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4560,7 +4563,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4584,7 +4587,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4621,7 +4624,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4645,7 +4648,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4669,7 +4672,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4693,7 +4696,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4717,7 +4720,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4741,7 +4744,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4765,7 +4768,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4790,7 +4793,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4814,7 +4817,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4839,7 +4842,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4863,7 +4866,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4888,7 +4891,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4912,7 +4915,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4938,7 +4941,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4962,7 +4965,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4987,7 +4990,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5011,7 +5014,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5036,7 +5039,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5060,7 +5063,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5085,7 +5088,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5109,7 +5112,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5134,7 +5137,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5158,7 +5161,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5183,7 +5186,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5207,7 +5210,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5232,7 +5235,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5256,7 +5259,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5281,7 +5284,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -5305,7 +5308,7 @@ ToolTipBorder
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted_GreyedOut"
 
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
